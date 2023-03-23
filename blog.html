@@ -17,13 +17,17 @@ permalink: /blog/
   </header>
 
   <ul class="post-list">
-    {%- for post in site.posts -%} {%- if post.categories[0] == 'blog' -%}
-    <li>
-      <a class="post-card" href="{{post.url}}">
-        <h4 class="post-card__title">{{ post.title }}</h4>
-        <time class="post-card__date">{{ post.date | date_to_string }}</time>
-      </a>
-    </li>
-    {%- endif -%} {%- endfor -%}
+    {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
+    {% for post in sorted_posts %}
+      {% if post.categories contains 'blog' %}
+        <li>
+          <a class="post-card" href="{{ post.url }}">
+            <h4 class="post-card__title">{{ post.title }}</h4>
+            <time class="post-card__date">{{ post.date | date: '%B %d, %Y' }}</time>
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
   </ul>
 </section>
+
