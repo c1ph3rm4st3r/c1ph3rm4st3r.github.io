@@ -2,11 +2,11 @@
 layout: post
 title: Dicas para ir bem no Code In The Dark
 description: Reuni nesse post algumas dicas e táticas que usei para me sair bem na rodada especial do Code In The Dark.
-categories: ["blog"]
+categories: ["CTF Walkthroughs"]
 comments: true
 tags: ["desafios", "html", "css"]
 type: single
-permalink: /blog/:title/
+permalink: /CTF Walkthroughs/:title/
 ---
 
 No último sábado (21) tivemos a segunda edição da Conferência CSS Brasil onde pude reencontrar, depois de 3 anos de pandemia, muita gente querida da comunidade que me inspirou e ainda inspira a ser um dev melhor. Assisti também diversas palestras incríveis onde sempre podemos aprender coisas que não sabemos.
