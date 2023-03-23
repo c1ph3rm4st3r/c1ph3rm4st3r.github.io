@@ -3,11 +3,11 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaultshttps://github.com/k4u5h41/k4u5h41.github.io/blob/main/CTF%20Walkthroughs.html
 
 layout: default
-title: CTF Walkthroughs
-subtitle: CTF Walkthroughs
-description: CTF Walkthroughs
+title: HTB
+subtitle: 
+description: 
 type: page
-permalink: /CTF Walkthroughs/
+permalink: /HTB/
 ---
 
 <section class="post">
@@ -19,7 +19,7 @@ permalink: /CTF Walkthroughs/
   <ul class="post-list">
     {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
     {% for post in sorted_posts %}
-      {% if post.categories contains 'CTF Walkthroughs' %}
+      {% if post.categories contains 'HTB' %}
         <li>
           <a class="post-card" href="{{ post.url }}">
             <h4 class="post-card__title">{{ post.title }}</h4>
