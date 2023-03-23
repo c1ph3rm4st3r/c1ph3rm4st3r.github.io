@@ -24,3 +24,6 @@ exclude:
   - vendor/ruby/
   - src/
   - LICENSE
+
+plugins:
+  - jekyll-search
