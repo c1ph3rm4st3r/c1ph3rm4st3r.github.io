@@ -11,3 +11,9 @@ sitemap:
 
 @import 'layouts/header';
 @import 'layouts/footer';
+
+pre,
+code {
+    ...
+    background-color: #eef;
+}
