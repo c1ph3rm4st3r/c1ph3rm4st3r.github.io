@@ -7,7 +7,7 @@ title: Proving Grounds
 subtitle: 
 description: 
 type: page
-permalink: /Proving Grounds/
+permalink: /Proving Ground/
 ---
 
 <section class="post">
@@ -19,7 +19,7 @@ permalink: /Proving Grounds/
   <ul class="post-list">
     {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
     {% for post in sorted_posts %}
-      {% if post.categories contains 'Proving Grounds' %}
+      {% if post.categories contains 'Proving Ground' %}
         <li>
           <a class="post-card" href="{{ post.url }}">
             <h4 class="post-card__title">{{ post.title }}</h4>
