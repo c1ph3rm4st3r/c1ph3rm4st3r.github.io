@@ -1,0 +1,32 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaultshttps://github.com/k4u5h41/k4u5h41.github.io/blob/main/CTF%20Walkthroughs.html
+
+layout: default
+title: Proving Ground
+subtitle: 
+description: 
+type: page
+permalink: /Proving Ground/
+---
+
+<section class="post">
+  <header class="page-header">
+    <h2 class="page-header__title">{{ page.title }}</h2>
+    <h3 class="page-header__subtitle">{{ page.subtitle }}</h3>
+  </header>
+
+  <ul class="post-list">
+    {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
+    {% for post in sorted_posts %}
+      {% if post.categories contains 'Proving Ground' %}
+        <li>
+          <a class="post-card" href="{{ post.url }}">
+            <h4 class="post-card__title">{{ post.title }}</h4>
+            <time class="post-card__date">{{ post.date | date: '%B %d, %Y' }}</time>
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</section>
