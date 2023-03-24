@@ -17,3 +17,9 @@ sitemap:
 .post {
   max-width: rem(720px);
 }
+
+pre,
+code {
+    ...
+    background-color: #eef;
+}
