@@ -18,8 +18,7 @@ sitemap:
   max-width: rem(720px);
 }
 
-pre,
-code {
-    ...
-    background-color: #eef;
+/* Set the background color for code blocks */
+.highlight {
+    background-color: #f0f0f0;
 }
