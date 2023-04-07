@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Lame - HTB
-description: Lame
-categories: ["HTB"]
+title: About Me
+description: About Me
+categories: ["About Me"]
 comments: true
-tags: ["HTB"]
+tags: ["About Me"]
 type: single
-permalink: /HTB/:title/
+permalink: /About Me/:title/
 ---
