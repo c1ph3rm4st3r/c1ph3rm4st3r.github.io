@@ -1,4 +1,4 @@
 User-Agent: *
 Allow: /
 
-Sitemap: https://c1ph3rm4st3r.com/sitemap.xml
+Sitemap: https://crypticdante.com/sitemap.xml
